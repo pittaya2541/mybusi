@@ -6,4 +6,4 @@
 <a>มหาวิทยาลัยเนชั่น จังหวัดสำปาง</a><br>
 
 <a>ส่วนนี้คืองาน Webpage ของผมครับ</a><br>
-http://pittayatest.atwebpages.com/login.php
+<a href="http://pittayatest.atwebpages.com/login.php">จิ้มเบาๆตรงนี้น่ะ</a><br>
