@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Pittaya Kanasin 5808311001</title>
+	<title></title>
 </head>
 <body topmargin="50px" bgcolor="#ADFF2F">
 
