@@ -1,37 +1,36 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+	<title>Pittaya Kanasin 5808311001</title>
+</head>
+<body topmargin="50px" bgcolor="#ADFF2F">
 
-You can use the [editor on GitHub](https://github.com/pittaya2541/Webpage/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<?php
+session_start();
+if(!isset($_SESSION["right"]) || $_SESSION["right"]!="pass") {
+echo '<a href=login.php>back</a>';
+exit;
+}
+?>
+<center>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a><font size="6">Main</a><br><br><br><br>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pittaya2541/Webpage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<table border="5">
+<tr>
+<td>
+<a href="login.php"><font size="5">| Login |</font></a>
+</td>
+<td>
+<a href="friends.php"><font size="5">| friend |</font></a>
+</td>
+<td>
+<a href="Me.php"><font size="5">| Me |</font></a>
+</td>
+<td>
+<a href="maindata.php"><font size="5">| Maindata |</font></a>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
