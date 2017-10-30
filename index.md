@@ -4,3 +4,5 @@
 <a>คณะ เทคโนโลยีสารสนเทศ</a><br>
 <a>สาขา คอมพิวเตอร์ธุรกิจ</a><br>
 <a>มหาวิทยาลัยเนชั่น จังหวัดสำปาง</a><br>
+หน้าเว็บ Northwind 
+<a href="pittayatest.atwebpages.com/mybisi/index.php">->คลิ๊ก<-</a>
