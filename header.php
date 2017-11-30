@@ -1,1 +1,0 @@
-<img src="img/_Title.png" width="100%">
